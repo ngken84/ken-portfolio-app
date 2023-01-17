@@ -1,0 +1,91 @@
+.aboutme-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 120rem;
+    margin: 3rem auto;
+
+    background-color: $color-grey-light-1;
+}
+
+.aboutme-header {
+    
+
+    &__title {
+        font-family: 'Roboto', sans-serif;
+        font-size: 5rem;
+        margin-top: -2rem;
+        text-transform: uppercase;
+        letter-spacing: .4rem;
+        color: white;
+        font-weight: 100;
+        background-color: rgba($color-grey-dark-3, 0.7);
+        padding: 1.2rem 3rem;
+        border-radius: 4px;
+        border: 1px solid white;
+    }
+
+    &__container {
+        background-image: 
+            linear-gradient(to right bottom,
+                rgba($color-green-light-1, .2),
+                rgba($color-green-dark-1, .5)),
+            url('/img/ocean.jpg');
+        background-size: cover;
+        height: 35rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) { 
+            -webkit-clip-path: polygon(0 0, 100% 0, 100% 27rem, 0 35rem);
+            clip-path: polygon(0 0, 100% 0, 100% 27rem, 0 35rem);
+        }
+    }
+}
+
+.aboutme-description {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    
+
+    &__pane {
+        width: 35%;
+        padding: 1rem;
+
+        
+    }
+
+    &__title {
+        text-transform: uppercase;
+        font-size: 3.2rem;
+        font-weight: 500;   
+        padding-bottom: 2rem;
+    }
+
+    &__paragraph {
+        font-size: 1.6rem;
+
+        &:not(:last-child) {
+            padding-bottom: 1rem;
+        }
+    }
+}
+
+.aboutme-profile {
+    background-image: 
+        linear-gradient(to right bottom,
+            rgba($color-green-light-1, .2),
+            rgba($color-green-dark-1, .5)),
+        url('/img/island.jpg');
+        height: 58rem;
+    background-size: cover;
+    @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) { 
+        -webkit-clip-path: polygon(0 8rem, 100% 0, 100% 50rem, 0 58rem);
+        clip-path: polygon(0 8rem, 100% 0, 100% 50rem, 0 100%);
+    }
+}

@@ -1,0 +1,21 @@
+.outline-btn {
+    border: 2px solid $color-grey-dark-2;
+    background-color: white;
+    color: $color-grey-dark-2;
+    font-size: 1.6rem;
+    border-radius: 1px;
+    padding: 0.8rem 1.5rem;
+    margin: 0.4rem;
+    cursor: pointer;
+    text-transform: uppercase;
+
+    &:active {
+        transform: translateY(1px);
+    }
+
+    &:disabled {
+        background-color: $color-grey-dark-1;
+        color: $color-grey-light-1;
+        border-color: $color-grey-light-1;
+    }
+}

@@ -1,0 +1,11 @@
+@mixin sort-base {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    width: 5rem;
+    height: 5rem;
+    border: 1px solid $color-grey-dark-2;
+    transition: all 1s;
+}

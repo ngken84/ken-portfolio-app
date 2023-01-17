@@ -1,0 +1,76 @@
+.home-page {
+    padding: 2.5rem;
+    max-width: 140rem;
+    margin: 0 auto;
+
+    &__links {
+        box-sizing: content-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: baseline;
+        padding: 25vh 5rem 30vh 5rem;
+        margin-top: -10vh;
+        background-color: $color-grey-light-3;
+
+    }
+}
+
+.main-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: 
+        linear-gradient(to right bottom,
+            rgba($color-primary-light-1, .2),
+            rgba($color-primary-dark-1, .2)),
+        url('/img/workspace.jpg');
+    background-size: cover;
+    height: 70vh;
+    
+
+    @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+        height: 70vh;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 60vh, 50% 70vh, 0 60vh);
+        clip-path: polygon(0 0, 100% 0, 100% 60vh, 50% 70vh, 0 60vh);
+        
+    }
+
+
+    &__header-box {
+        border: 3px solid white;
+        background-color: rgba(black, 0.6);
+        border-radius: 10px;
+        color: white;
+        padding: 1.75rem 4rem;
+        font-family: "Montserrat", sans-serif;
+
+        &-subtitle {
+            font-family: inherit;
+            font-size: 1.5rem;
+        }
+
+        &-title {
+            font-size: 6rem;
+            text-transform: uppercase;
+            font-weight: 100;
+            letter-spacing: .4rem;
+        }
+    }
+}
+
+.home-footer {
+    min-height: 30vh;
+    margin-top: -20vh;
+    background-color: $color-grey-dark-3;
+
+    @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+        min-height: 30vh;
+        -webkit-clip-path: polygon(0 10vh, 50% 0, 100% 10vh, 100% 100%, 0 100%);
+        clip-path: polygon(0 10vh, 50% 0, 100% 10vh, 100% 100%, 0 100%);
+        
+    }
+
+}

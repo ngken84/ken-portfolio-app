@@ -1,0 +1,18 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-size: 62.5%; //1rem = 10px;
+    background-color: $color-grey-light-3;
+}
+
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+}
