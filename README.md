@@ -2,6 +2,19 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Project Purpose
+
+I built this project to: 
+* show off a react application that I built.
+* act as a portfolio/resume page for future employers
+* use the modules page to review concepts and to display things I have learned
+
+## Project To Dos
+
+* Complete the Resource Link Page.
+* Complete the About Me Page
+
+
 ## Available Scripts
 
 In the project directory, you can run:
