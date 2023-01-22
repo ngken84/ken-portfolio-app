@@ -304,6 +304,14 @@ const QuickSort = () => {
                         <div className="modulepage-body-2">
                             <p><b>Time Complexity: </b>O(n<i>log</i>n)</p>
                             <p><b>Space Requirement: </b>O(n)</p>
+                            <br/>
+                            <h3>Things to do</h3>
+                            <ul>
+                                <li>Animation on the merging does not work.</li>
+                                <li>Positioning the children could be clearer and sometimes overlap occurs if there is an empty left child</li>
+                                <li>Add representation for empty arrays</li>
+
+                            </ul>
                         </div>
                     </div>
                     {!start &&
