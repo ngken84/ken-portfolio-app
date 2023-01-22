@@ -21,6 +21,11 @@ const ResourceLinks = [
         name: 'CSS-Tricks: Glyphs',
         description: 'HTML special entity codes,',
         url: 'https://css-tricks.com/snippets/glyphs'
+    },
+    {
+        name: 'CSS-Tricks: Glyphs',
+        description: 'HTML special entity codes,',
+        url: 'https://css-tricks.com/snippets/glyphs'
     }
 ];
 

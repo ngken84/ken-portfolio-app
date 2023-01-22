@@ -12,12 +12,17 @@ const ResourceLinkPage = () => {
     return (
         <>
             <Header/>
-            <div>
-                {
-                    ResourceLinks.map(link => (
-                        <ResourceLink linkName={link.name}/>
-                    ))
-                }
+            <div className="container resourcelink-pagecontainer">
+
+                <h1 className="resourcelink--header">Resource Links</h1>
+                <div className="resourcelink--linkscontainer">
+                
+                    {
+                        ResourceLinks.map(link => (
+                            <ResourceLink data={link}/>
+                        ))
+                    }
+                </div>
             </div>
         </>
         
