@@ -23,6 +23,21 @@ html {
 .u-margin-top-small {
   margin-top: 1.5rem; }
 
+.u-margin-left-none {
+  margin-left: 0.1rem; }
+
+.u-margin-left-small {
+  margin-left: 1.1rem; }
+
+.u-margin-left-medium {
+  margin-left: 2.1rem; }
+
+.u-margin-left-large {
+  margin-left: 3.1rem; }
+
+.u-margin-left-xlarge {
+  margin-left: 4.1rem; }
+
 .outline-btn {
   border: 2px solid #444;
   background-color: white;
@@ -106,9 +121,10 @@ html {
 
 .modulepage-body {
   padding: 2rem 4rem;
-  display: flex;
-  flex-direction: row;
-  align-self: stretch; }
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  grid-gap: 2rem; }
   .modulepage-body-1 {
     padding: 2rem 4rem;
     flex: 1; }
@@ -117,6 +133,39 @@ html {
   .modulepage-body-2 {
     padding: 2rem 4rem;
     flex: 1; }
+
+.modulepage--csscode--redtext {
+  color: #F92658; }
+
+.modulepage--csscode--block {
+  border: 2px solid black;
+  border-radius: 3px;
+  padding: 1rem;
+  width: 100%;
+  background-color: #272822;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 500;
+  color: #F8F8F2;
+  margin: 1rem;
+  font-size: 1.5rem; }
+
+.modulepage--csscode--lightbluetext {
+  color: #66D9EF; }
+
+.modulepage--csscode--purpletext {
+  color: #AE81F2; }
+
+.modulepage--csscode-header {
+  color: #7ed56f; }
+
+.modulepage--csscode-bracket--1 {
+  color: #FFD712; }
+
+.modulepage--csscode-bracket--2 {
+  color: #DA70B3; }
+
+.modulepage--csscode-bracket--3 {
+  color: #66D9CE; }
 
 .sort-container {
   display: block;
@@ -362,20 +411,31 @@ html {
 
 .resourcelink--header {
   text-align: center;
-  font-size: 2.4rem;
+  font-size: 3rem;
   font-family: 'Lato', sans-serif;
   margin-top: 5rem; }
 
 .resourcelink-container {
   border: 1px solid darkgrey;
   border-radius: 5px;
-  padding: 4rem 2rem; }
+  padding: 2rem 2rem;
+  display: grid;
+  grid-template-rows: 2fr 1fr 1fr;
+  grid-template-columns: 1fr;
+  grid-gap: .5rem; }
 
 .resourcelink--title {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 2.2rem; }
+  font-size: 1.8rem;
+  font-family: 'Lato', sans-serif; }
+
+.resourcelink--svg-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; }
 
 .resourcelink--body {
   font-size: 1.2rem; }

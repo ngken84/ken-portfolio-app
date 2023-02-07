@@ -10,23 +10,36 @@
     
     &--header {
         text-align: center;
-        font-size: 2.4rem;
+        font-size: 3rem;
         font-family: 'Lato', sans-serif;
         margin-top: 5rem;
+        
     }
 
     &-container {
         border: 1px solid darkgrey;
         border-radius: 5px;
-        padding: 4rem 2rem;
+        padding: 2rem 2rem;
+        display: grid;
+        grid-template-rows: 2fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-gap: .5rem;
     }
 
     &--title {
         text-align: center;
         text-decoration: none;
         text-transform: uppercase;
-        font-size: 2.2rem;
+        font-size: 1.8rem;
+        font-family: 'Lato', sans-serif;
         
+    }
+
+    &--svg-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
     }
 
     &--body {

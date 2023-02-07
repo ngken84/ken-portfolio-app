@@ -10,6 +10,7 @@ import HomePage from '../pages/HomePage';
 import ModulesPage from '../pages/ModulesPage';
 import ResourceLinkPage from '../pages/ResourceLinkPage';
 import ResumePage from '../pages/ResumePage';
+import CssMenu from '../modules/CssMenu';
 
 const AppRouter = () => {
     return (
@@ -25,6 +26,7 @@ const AppRouter = () => {
                 <Route path="/modules/3/mergesort" element={<MergeSort/>}/>
                 <Route path="/modules/4/quicksort" element={<QuickSort/>}/>
                 <Route path="/modules/5/css-spinning-card" element={<SpinningCard/>}/>
+                <Route path="/modules/7/css-menu" element={<CssMenu/>}/>
             </Routes>
         </BrowserRouter>
     )

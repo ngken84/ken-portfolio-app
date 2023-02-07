@@ -38,6 +38,14 @@ const ModulesList = [
         svg: 'embed',
         type: ['css'],
         to: '6/css-flex-box'
+    },
+    {
+        name: 'CSS Menu',
+        subtitle: 'CSS Trick',
+        description: 'How to make a full screen toggle-able menu using pure CSS.',
+        svg: 'menu',
+        type: ['css'],
+        to: '7/css-menu'
     }
 
 

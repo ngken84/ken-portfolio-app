@@ -21,9 +21,10 @@
 
     &-body {
         padding: 2rem 4rem;
-        display: flex;
-        flex-direction: row;
-        align-self: stretch;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        grid-gap: 2rem;
 
         &-1 {
             padding: 2rem 4rem;
@@ -39,5 +40,51 @@
             flex: 1;
         }
     }
+
+    &--csscode {
+
+        &--redtext {
+            color: $color-pink-1;
+        }
+        
+        &--block {
+            border: 2px solid black;
+            border-radius: 3px;
+            padding: 1rem;
+            width: 100%;
+            background-color: $color-grey-dark-4;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: 500;
+            color: $color-white-2;
+            margin: 1rem;
+            font-size: 1.5rem;
+        }
+
+        &--lightbluetext {
+            color: $color-blue-light-3;
+        }
+
+        &--purpletext {
+            color: $color-purple-light-2;
+        }
+
+        &-header {
+            color: $color-green-light-1;
+        }
+
+        &-bracket--1 {
+            color: $color-yellow-1;
+        }
+
+        &-bracket--2 {
+            color: $color-pink-light-1;
+        }
+
+        &-bracket--3 {
+            color: $color-blue-light-2;
+        }
+    }
+
+
 
 }

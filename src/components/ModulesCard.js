@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import SvgElement from './SvgElement';
 
 const ModulesCard = ({svg, name, subtitle, description, to}) => {
 
@@ -8,7 +9,7 @@ const ModulesCard = ({svg, name, subtitle, description, to}) => {
             <div className="modules-card__side modules-card__side--front">
                 {svg && 
                     <div className="modules-card__icon">
-                        {svg}
+                        <SvgElement svgName={svg}/>
                     </div>
                         
                 }
