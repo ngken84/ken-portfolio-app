@@ -48,7 +48,7 @@ const ModulesList = [
         to: '7/css-menu'
     }, 
     {
-        name: 'SCSS not last trick',
+        name: ':last-child trick',
         subtitle: 'CSS Trick',
         description: 'How to apply ',
         svg: 'embed',
@@ -62,7 +62,6 @@ const ModulesList = [
         svg: 'embed',
         type: ['scss'],
         to: '9/scss-selectors'
-
     }
 
 
