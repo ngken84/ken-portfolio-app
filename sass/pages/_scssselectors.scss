@@ -1,0 +1,29 @@
+.scssselector {
+
+    
+
+    [class^="scss-sel-row-"] {
+        height: 3rem;
+        width: 100%;
+
+        &:not(:last-child) {
+            margin-bottom: 1rem;
+        }
+    }
+
+    .scss-sel-row-black {
+        background-color: black;
+        color: white;
+    }
+
+    .scss-sel-row-blue {
+        background-color: blue;
+        color: white;
+    }
+
+    .scss-sel-row-red {
+        background-color: red;
+    }
+
+
+}

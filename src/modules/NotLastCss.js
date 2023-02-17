@@ -31,8 +31,6 @@ const NotLastCss = () => {
                                             label: 'width',
                                             item: { value: '100', unit: '%' }
                                         }
-
-                                        
                                     ]}/>
                                     <br/>
                                     <CssBlock title={{label: ':not(:last-child)', red: "&"}} level={2}>
