@@ -46,6 +46,23 @@ const ModulesList = [
         svg: 'menu',
         type: ['css'],
         to: '7/css-menu'
+    }, 
+    {
+        name: 'SCSS not last trick',
+        subtitle: 'CSS Trick',
+        description: 'How to apply ',
+        svg: 'embed',
+        type: ['css'],
+        to: '8/css-not-last'
+    },
+    {
+        name: 'SCSS selectors',
+        subtitle: 'SCSS Trick',
+        description: 'Reduce redundant code with CSS Selectors!',
+        svg: 'embed',
+        type: ['scss'],
+        to: '9/scss-selectors'
+
     }
 
 

@@ -8,13 +8,13 @@ const CssItem = ({item, items, children}) => {
             <>
                 {i.unit &&
                     <>
-                        {' '}<span className='modulepage--csscode--purpletext'>{i.value}</span>
-                        <span className='modulepage--csscode--redtext'>{i.unit}</span>
+                        {' '}<span className='modulepage--purpletext'>{i.value}</span>
+                        <span className='modulepage--redtext'>{i.unit}</span>
                     </>
                 }
                 {!i.unit && 
                     <>
-                        <span className='modulepage--csscode--lightbluetext'>{i.value}</span>
+                        <span className='modulepage--lightbluetext'>{i.value}</span>
                     </>
                 }
             
@@ -24,7 +24,7 @@ const CssItem = ({item, items, children}) => {
 
     return (
         <div>
-            <span className='modulepage--csscode--lightbluetext'><i>{children}</i></span>:
+            <span className='modulepage--lightbluetext'><i>{children}</i></span>:
             {item && 
                 <>{' '}{renderItem(item)}{';'}</>
             }

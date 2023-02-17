@@ -11,6 +11,8 @@ import ModulesPage from '../pages/ModulesPage';
 import ResourceLinkPage from '../pages/ResourceLinkPage';
 import ResumePage from '../pages/ResumePage';
 import CssMenu from '../modules/CssMenu';
+import NotLastCss from '../modules/NotLastCss';
+import ScssSelectors from '../modules/ScssSelectors';
 
 const AppRouter = () => {
     return (
@@ -27,6 +29,8 @@ const AppRouter = () => {
                 <Route path="/modules/4/quicksort" element={<QuickSort/>}/>
                 <Route path="/modules/5/css-spinning-card" element={<SpinningCard/>}/>
                 <Route path="/modules/7/css-menu" element={<CssMenu/>}/>
+                <Route path="/modules/8/css-not-last" element={<NotLastCss/>}/>
+                <Route path="/modules/9/scss-selectors" element={<ScssSelectors/>}/>
             </Routes>
         </BrowserRouter>
     )

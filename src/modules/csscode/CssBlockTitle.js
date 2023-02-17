@@ -7,7 +7,7 @@ const CssBlockTitle = ({item, items, level}) => {
             { item && 
                 <>
                     { item.red && 
-                        <span className="modulepage--csscode--redtext">{item.red}</span>
+                        <span className="modulepage--redtext">{item.red}</span>
                     }
                     <span className="modulepage--csscode-header">{item.label}</span>{' '}
                     
@@ -18,7 +18,7 @@ const CssBlockTitle = ({item, items, level}) => {
                 items.map((item) => (
                     <>
                         { item.red && 
-                            <span className="modulepage--csscode--redtext">{item.red}</span>
+                            <span className="modulepage--redtext">{item.red}</span>
                         }
                         <span className="modulepage--csscode-header">{item.label}</span>
                         { item.add && ' +'}

@@ -16,3 +16,18 @@ export const getValidIntValFromString = (value) => {
 export const createValidIntRandomNumber = () => {
     return Math.floor(Math.random() * 1000);
 }
+
+export const getLevelClass = (level) => {
+    switch(level) {
+        case 5: 
+            return 'u-margin-left-xlarge';
+        case 4:
+            return 'u-margin-left-large';
+        case 3: 
+            return 'u-margin-left-medium';
+        case 2:
+            return 'u-margin-left-small';
+        default: 
+            return 'u-margin-left-none';
+    }
+}
