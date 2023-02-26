@@ -481,3 +481,67 @@ html {
 
 .scssselector .scss-sel-row-red {
   background-color: red; }
+
+.flexmodule-body {
+  position: relative;
+  background-color: #ddd;
+  width: 100%;
+  min-height: 30rem;
+  margin: 2rem 3rem; }
+  .flexmodule-body--title {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    color: black;
+    text-transform: uppercase; }
+
+.flexmodule-controls-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #444;
+  color: #eee;
+  width: 100%; }
+
+.flexmodule-controls-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+  .flexmodule-controls-row--title {
+    background-color: #ccc;
+    color: #444;
+    padding: 1rem 3rem;
+    -webkit-clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%); }
+  .flexmodule-controls-row:last-child {
+    margin-right: 2rem; }
+
+.flexmodule-box--title {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold; }
+
+.flexmodule-box-1 {
+  position: relative;
+  background-color: orangered;
+  width: 10rem;
+  height: 10rem; }
+
+.flexmodule-box-2 {
+  position: relative;
+  background-color: red;
+  width: 20rem;
+  height: 20rem; }
+
+.flexmodule-box-3 {
+  position: relative;
+  background-color: green; }
+
+.flexmodule-box-4 {
+  position: relative;
+  background-color: blue;
+  width: 15rem;
+  height: 15rem; }

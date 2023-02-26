@@ -62,6 +62,14 @@ const ModulesList = [
         svg: 'embed',
         type: ['scss'],
         to: '9/scss-selectors'
+    },
+    {
+        name: 'Flex Box',
+        subtitle: "CSS Fundamentals",
+        description: 'A fundamental tool for managing placement of boxes in CSS. Learn it!',
+        svg: 'presentation',
+        type: ['css'],
+        to: '10/css-flex-box'
     }
 
 

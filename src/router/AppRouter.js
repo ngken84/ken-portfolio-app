@@ -13,6 +13,7 @@ import ResumePage from '../pages/ResumePage';
 import CssMenu from '../modules/CssMenu';
 import NotLastCss from '../modules/NotLastCss';
 import ScssSelectors from '../modules/ScssSelectors';
+import CssFlexBox from '../modules/CssFlexBox';
 
 const AppRouter = () => {
     return (
@@ -31,6 +32,7 @@ const AppRouter = () => {
                 <Route path="/modules/7/css-menu" element={<CssMenu/>}/>
                 <Route path="/modules/8/css-not-last" element={<NotLastCss/>}/>
                 <Route path="/modules/9/scss-selectors" element={<ScssSelectors/>}/>
+                <Route path="/modules/10/css-flex-box" element={<CssFlexBox/>}/>
             </Routes>
         </BrowserRouter>
     )

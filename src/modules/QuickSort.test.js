@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import QuickSort, {QuickTreeBranch, QuickTreeItem }from './QuickSort';
+import QuickSort, {QuickTreeBranch, QuickTreeItem } from './QuickSort';
 
 test('QuickTreeItem constructor works', () => {
     var item = new QuickTreeItem({key : 1, value: 2}, 5, 6);

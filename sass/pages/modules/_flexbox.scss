@@ -1,0 +1,90 @@
+.flexmodule {
+
+    &-body {
+        position: relative;
+        background-color: $color-grey-light-1;
+        width: 100%;
+        min-height: 30rem;
+        margin: 2rem 3rem;
+
+        &--title {
+            position: absolute;
+            top: 2px;
+            right: 2px;
+            color: black;
+            text-transform: uppercase;
+        }
+
+    }
+
+    &-controls-container {
+        display: flex;
+        flex-direction: column;
+        background-color: $color-grey-dark-2;
+        color: $color-grey-light-3;
+        width: 100%;
+
+       
+    }
+
+    &-controls-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+         &--title {
+            background-color: $color-grey-light-2;
+            color: $color-grey-dark-2;
+            padding: 1rem 3rem;
+            -webkit-clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
+            clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
+        }
+
+        &:last-child {
+            margin-right: 2rem;
+        }
+
+    }
+
+    &-box {
+
+        &--title {
+            position: absolute;
+            top: 2px;
+            right: 2px;
+            text-transform: uppercase;
+            color: white;
+            font-weight: bold;
+        }
+        
+        
+
+        &-1 {
+            position: relative;
+            background-color: orangered;
+            width: 10rem;
+            height: 10rem;
+        }
+
+        &-2 {
+            position: relative;
+            background-color: red;
+            width: 20rem;
+            height: 20rem;
+        }
+
+        &-3 {
+            position: relative;
+            background-color: green;
+        }
+
+        &-4 {
+            position: relative;
+            background-color: blue;
+            width: 15rem;
+            height: 15rem;
+        }
+    }
+    
+}
