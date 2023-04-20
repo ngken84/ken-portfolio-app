@@ -1,0 +1,20 @@
+.backgrndimg-modules {
+
+    &-container {
+        background-image: url('/img/workspace.jpg');
+    }
+
+    &-header {
+        background-color: rgba($color-grey-dark-3, .7);
+        color: $color-white-2;
+        padding: 1rem 2rem;
+        border-radius: 5px;
+    }
+
+    &-body {
+        background-color: rgba($color-grey-dark-3, .7);
+        color: $color-white-2;
+        padding: 1rem 2rem;
+        border-radius: 5px;
+    }
+}

@@ -14,6 +14,8 @@ import CssMenu from '../modules/CssMenu';
 import NotLastCss from '../modules/NotLastCss';
 import ScssSelectors from '../modules/ScssSelectors';
 import CssFlexBox from '../modules/CssFlexBox';
+import CssGrid from '../modules/CssGrid';
+import CssBackgroundImg from '../modules/CssBackgroundImg';
 
 const AppRouter = () => {
     return (
@@ -33,6 +35,8 @@ const AppRouter = () => {
                 <Route path="/modules/8/css-not-last" element={<NotLastCss/>}/>
                 <Route path="/modules/9/scss-selectors" element={<ScssSelectors/>}/>
                 <Route path="/modules/10/css-flex-box" element={<CssFlexBox/>}/>
+                <Route path="/modules/11/css-grid" element={<CssGrid/>}/>
+                <Route path="/modules/12/css-background-img" element={<CssBackgroundImg/>}/>
             </Routes>
         </BrowserRouter>
     )

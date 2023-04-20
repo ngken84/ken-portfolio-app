@@ -70,6 +70,22 @@ const ModulesList = [
         svg: 'presentation',
         type: ['css'],
         to: '10/css-flex-box'
+    },
+    {
+        name: 'CSS Grids',
+        subtitle: 'CSS Fundamentals',
+        description: 'A newer tool for organizing items on a grid in CSS!',
+        svg: 'presentation',
+        type: ['css'],
+        to: '11/css-grid'
+    },
+    {
+        name: 'CSS Background Images',
+        subtitle: 'CSS Fundamentals',
+        description: 'Create awesome layouts with background images in CSS',
+        svg: 'presentation',
+        type: ['css'],
+        to: '12/css-background-img'
     }
 
 
