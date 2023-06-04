@@ -16,6 +16,7 @@ import ScssSelectors from '../modules/ScssSelectors';
 import CssFlexBox from '../modules/CssFlexBox';
 import CssGrid from '../modules/CssGrid';
 import CssBackgroundImg from '../modules/CssBackgroundImg';
+import ClipPath from '../modules/ClipPath';
 
 const AppRouter = () => {
     return (
@@ -37,6 +38,7 @@ const AppRouter = () => {
                 <Route path="/modules/10/css-flex-box" element={<CssFlexBox/>}/>
                 <Route path="/modules/11/css-grid" element={<CssGrid/>}/>
                 <Route path="/modules/12/css-background-img" element={<CssBackgroundImg/>}/>
+                <Route path="/modules/13/css-clip-path" element={<ClipPath/>}/>
             </Routes>
         </BrowserRouter>
     )

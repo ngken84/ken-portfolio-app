@@ -16,4 +16,14 @@
         background-color: white;
         border-bottom: 1px solid $color-grey-light-1;
     }
+
+    &-title {
+        font-size: 1.8rem;
+        font-family: "Martel", serif;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding-left: 1.2rem;
+
+    }
 }

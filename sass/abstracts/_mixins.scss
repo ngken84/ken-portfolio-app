@@ -9,3 +9,11 @@
     border: 1px solid $color-grey-dark-2;
     transition: all 1s;
 }
+
+@mixin css-base {
+    background-color: $color-grey-dark-4;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    color: $color-white-2;
+    font-size: 1.5rem;
+}

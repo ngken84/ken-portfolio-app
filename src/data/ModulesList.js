@@ -86,6 +86,14 @@ const ModulesList = [
         svg: 'presentation',
         type: ['css'],
         to: '12/css-background-img'
+    },
+    {
+        name: 'CSS Clip Path',
+        subtitle: 'CSS Tricks',
+        description: 'Style your elements with dynamic shapes with Clip Path!',
+        svg: 'presentation',
+        type: ['css'],
+        to: '13/css-clip-path'
     }
 
 

@@ -1,0 +1,66 @@
+.resume {
+
+    &-container {
+        background-color: $color-white-1;
+        max-width: 128rem;
+        margin: 3rem auto;
+        border: 1px solid $color-grey-dark-4;
+        padding: 9rem 8rem;
+    }
+
+    &-header {
+
+        &--container {
+            display: flex;
+            flex-direction: row;
+            
+        }
+        
+        &--name-box {
+            display:flex;
+            flex-direction: column;
+            flex-grow: 4;
+
+        }
+
+        &--name {
+            font-family: 'Merriweather', serif;
+            font-size: 5.2rem;
+        }
+
+        &--name-subtitle {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 1.7rem;
+        }
+
+        &--contact-box {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 1.4rem;
+            flex-grow: 1;
+        }
+
+        
+
+    }
+
+    &-body {
+
+        &--container {
+            display: flex;
+            flex-direction: row;
+            margin-top: 3rem;
+        }
+
+        &--title {
+            
+            text-transform: uppercase;
+            
+            
+        }
+
+
+    }
+    
+
+
+}

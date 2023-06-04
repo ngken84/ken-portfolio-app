@@ -67,6 +67,13 @@ html {
   .header-container {
     background-color: white;
     border-bottom: 1px solid #ddd; }
+  .header-title {
+    font-size: 1.8rem;
+    font-family: "Martel", serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 1.2rem; }
 
 .mainpagelink {
   display: flex;
@@ -119,6 +126,9 @@ html {
 .modulepage-header {
   text-transform: uppercase; }
 
+.modulepage-singlebody {
+  margin: 3rem 5rem; }
+
 .modulepage-body {
   padding: 2rem 4rem;
   display: grid;
@@ -149,17 +159,25 @@ html {
 .modulepage--yellowtext {
   color: #FFD712; }
 
-.modulepage--csscode--block {
-  border: 2px solid black;
-  border-radius: 3px;
-  padding: 1rem;
-  width: 100%;
+.modulepage--csscode--block-inline {
   background-color: #272822;
   font-family: 'Courier New', Courier, monospace;
   font-weight: 500;
   color: #F8F8F2;
-  margin: 1rem;
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+  display: inline-block; }
+
+.modulepage--csscode--block {
+  background-color: #272822;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 500;
+  color: #F8F8F2;
+  font-size: 1.5rem;
+  border: 2px solid black;
+  border-radius: 3px;
+  padding: 1rem;
+  width: 100%;
+  margin: 1rem; }
 
 .modulepage--csscode-header {
   color: #7ed56f; }
@@ -420,6 +438,43 @@ html {
   .notlast-row:not(:last-child) {
     margin-bottom: 2rem; }
 
+.resume-container {
+  background-color: white;
+  max-width: 128rem;
+  margin: 3rem auto;
+  border: 1px solid #272822;
+  padding: 9rem 8rem; }
+
+.resume-header--container {
+  display: flex;
+  flex-direction: row; }
+
+.resume-header--name-box {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 4; }
+
+.resume-header--name {
+  font-family: 'Merriweather', serif;
+  font-size: 5.2rem; }
+
+.resume-header--name-subtitle {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.7rem; }
+
+.resume-header--contact-box {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.4rem;
+  flex-grow: 1; }
+
+.resume-body--container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3rem; }
+
+.resume-body--title {
+  text-transform: uppercase; }
+
 .resourcelink-pagecontainer {
   display: flex;
   flex-direction: column;
@@ -561,3 +616,42 @@ html {
   color: #F8F8F2;
   padding: 1rem 2rem;
   border-radius: 5px; }
+
+.css-grid--figure-1 {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  width: 80%;
+  margin: 5rem auto; }
+  .css-grid--figure-1--left-side {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    color: #cc1e18; }
+  .css-grid--figure-1--y-axis-cont {
+    position: relative; }
+  .css-grid--figure-1--y-axis {
+    transform: rotate(-90deg); }
+  .css-grid--figure-1--title {
+    color: #cc1e18;
+    width: 15rem;
+    font-size: 2.2rem;
+    font-weight: 500; }
+  .css-grid--figure-1--right-side {
+    display: flex;
+    flex-direction: column; }
+  .css-grid--figure-1--bottom-axis {
+    display: flex;
+    flex-direction: row; }
+  .css-grid--figure-1--body {
+    display: grid;
+    width: 50rem;
+    grid-gap: 4rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #ff5c56; }
+  .css-grid--figure-1--grid-piece {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 14rem;
+    height: 10rem;
+    background-color: #cc1e18; }
